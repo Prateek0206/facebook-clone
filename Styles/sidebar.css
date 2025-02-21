@@ -1,0 +1,263 @@
+/*Left sidebar code*/
+.left-navigation {
+  display: flex;
+
+  width: 280px;
+  height: 100dvh;
+  position: fixed;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  align-items: flex-start;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  flex-direction: column;
+  padding-top: 80px;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+
+.left-nav-box {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 18px;
+
+  font-size: 15px;
+
+  gap: 10px;
+
+  cursor: pointer;
+}
+.left-navigation img {
+  height: 28px;
+}
+
+.nav-profile-icon-img {
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.drop-down-icon {
+  background-color: #d6d9dd;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.smaller {
+  padding: 3px;
+}
+
+.Shortcuts {
+  padding-left: 18px;
+  color: #65686c;
+  font-weight: bold;
+}
+
+.copyright-info {
+  text-align: justify;
+  padding: 6px;
+  margin-bottom: 10px;
+  color: #65686c;
+  font-size: 14px;
+}
+
+/*Right sidebar code*/
+
+/*Friend reqs starts*/
+
+.right-navigation {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding-top: 80px;
+  padding-right: 16px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.friend-request-container {
+  border-bottom: 1px solid #d3d6da;
+  padding-bottom: 6px;
+}
+
+.right-navigation img {
+  height: 38px;
+}
+
+.friend-request-container {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: 150px;
+
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.friend-box {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 14px;
+
+  font-size: 15px;
+  justify-content: end;
+}
+
+.about-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+}
+
+.friend-request {
+  color: #65686c;
+  font-weight: bold;
+}
+
+.see-all {
+  color: #1169c8;
+  font-size: small;
+}
+
+.friend-pfp img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.friend-about {
+  width: 100%;
+}
+
+.friend-name-time {
+  display: flex;
+  margin-bottom: 5px;
+
+  justify-content: space-between;
+}
+
+.friend-name {
+  font-weight: bold;
+  font-size: 15px;
+}
+.time {
+  color: #65686c;
+  font-size: 13px;
+}
+
+.mutuals-images img {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 2px solid #f2f4f7;
+}
+
+.mutual-img-1 {
+  margin-right: -10px;
+}
+.mutual-img-2 {
+  margin-right: 3px;
+}
+
+.mutuals {
+  display: flex;
+  color: #65686c;
+  font-size: 12px;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.confirm-delete-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.confirm-delete-buttons button {
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: -4px;
+}
+
+.confirm {
+  background-color: #0861f2;
+  border: none;
+  color: white;
+}
+
+.delete {
+  background-color: #d6d9dd;
+}
+
+/*Friend reqs ends*/
+
+/*Contacts details starts*/
+
+.contact-header {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  color: #65686c;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  padding: 15px 1.5px;
+}
+
+.more-options img {
+  height: 20px;
+}
+
+.three-dots {
+  margin-left: 15px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.individual-details {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 9px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.individual-details img {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.green-dot-container {
+  position: relative;
+}
+
+.green-dot {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #227c2a;
+  bottom: 3px;
+  right: 3px;
+  border: 1.6px solid #f2f4f7;
+}
