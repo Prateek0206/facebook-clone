@@ -68,9 +68,8 @@
   height: 29px;
 }
 
-
-
-.middle-header-icons,.right-header-icon {
+.middle-header-icons,
+.right-header-icon {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -85,7 +84,7 @@
   background-color: #303131;
   color: white;
   font-size: 12px;
-  
+
   padding: 8px 10px;
   border-radius: 6px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
@@ -95,8 +94,7 @@
   pointer-events: none;
 }
 
-
-.middle-header-icons:hover .tool-tip, 
+.middle-header-icons:hover .tool-tip,
 .right-header-icon:hover .tool-tip {
   opacity: 1;
 }
@@ -120,24 +118,23 @@
   padding: 9px;
   border-radius: 50%;
 }
-.right-header .notification-icon{
+.right-header .notification-icon {
   height: 40px;
   padding: 4px;
   position: relative;
 }
 
-.notifications-number{
+.notifications-number {
   position: absolute;
   top: -6px;
-  right:-6px;
-  background-color: #DD2334;
+  right: -6px;
+  background-color: #dd2334;
   color: white;
   font-size: 0.8rem;
   border-radius: 47%;
   padding: 4px;
   font-weight: bold;
 }
-
 
 .right-header .profile-icon-img {
   position: relative;
@@ -151,7 +148,7 @@
   padding: 0;
 }
 
-.pfp-drop-down img{
+.pfp-drop-down img {
   position: absolute;
   bottom: -1px;
   right: -3px;
@@ -160,3 +157,15 @@
   border: 2px solid white;
 }
 
+@media (max-width: 800px) {
+  .middle-header,
+  .right-header {
+    display: none;
+  }
+
+  .left-header{
+    margin: 0 auto;
+  }
+
+ 
+}
